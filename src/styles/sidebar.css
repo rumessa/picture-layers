@@ -77,7 +77,6 @@ select {
     padding: 5px;
     color: var(--text);
     resize: none;
-    resize: none
 }
 
 .button-area {
