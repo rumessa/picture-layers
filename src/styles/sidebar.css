@@ -1,0 +1,113 @@
+.sidebar {
+    background-color: var(--dark-gray);
+    width: 100%;
+    height: 100vh;
+    max-width: 310px;
+    min-width: 310px;
+}
+.inside-sidebar {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+}
+
+h1 {
+    color: var(--text);
+    height: 50px;
+    font-size: 1.5em;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.checkboxes > label {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    color: var(--text);
+    cursor: pointer;
+}
+input[type=checkbox] {
+    background-color: var(--dark-gray);
+    outline: 1px solid #DDD;
+    border-radius: 50%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 17px;
+    height: 17px;
+    
+}
+input[type=checkbox]:checked {
+    background-color: #DDD;
+    outline: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+}
+h6 {
+    color: var(--light-gray);
+    padding: 0;
+    margin: 0;
+}
+select {
+    background-color: var(--dark-gray);
+    color: var(--light-gray);
+    width: 280px;
+    padding: 6px;
+    border-radius: 5%;
+    outline: var(--light-gray);
+}
+.comments {
+    height: 200px;
+    width: 280px;
+    border-radius: 5%;
+    outline: var(--light-gray);
+    background-color: var(--dark-gray);
+    word-wrap: break-word;
+    padding: 5px;
+    color: var(--text);
+}
+
+.button-area {
+    background-color: var(--light-gray);
+    position: absolute;
+    bottom: 0;
+    width: 310px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+}
+button {
+    width: 90px;
+    height: 45px;
+    border: none;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 2px;
+}
+#save {
+    width: 150px;
+    background-color: var(--blue);
+    color: var(--text);
+}
+#save:disabled {
+    background-color: #5962f8;
+    color: var(--cancel);
+}
+#cancel {
+    background-color: var(--cancel);
+    color: var(--text);
+}

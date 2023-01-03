@@ -1,0 +1,16 @@
+.nav {
+    width: calc(100vw - 310px);
+    background-color: var(--mid-gray);
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 6px;
+}
+
+.nav > button {
+    border: none;
+    width: auto;
+    background-color: var(--mid-gray);
+    color: var(--dark-gray); 
+}

@@ -1,0 +1,20 @@
+:root {
+    --dark-gray: #2b2831;
+    --mid-gray: #232028;
+    --light-gray: #5c5669;
+    --text: #FEFEFE;
+    --blue: #1825f5;
+    --cancel: #867e96;
+}
+
+body {
+    background-color: white;
+}
+
+.App {
+    display: flex;
+}
+.inner-App {
+    display: flex;
+    flex-direction: column;
+}
