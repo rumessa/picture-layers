@@ -76,6 +76,7 @@ select {
     word-wrap: break-word;
     padding: 5px;
     color: var(--text);
+    resize: none;
 }
 
 .button-area {
