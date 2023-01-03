@@ -1,7 +1,7 @@
 {
   "name": "react-layers",
   "version": "0.1.0",
-  "homepage": "http://rumessa.github.io/picture-layers"
+  "homepage": "http://rumessa.github.io/picture-layers",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
